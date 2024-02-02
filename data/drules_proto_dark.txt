@@ -50671,53 +50671,6 @@ cont {
   }
 }
 cont {
-  name: "leisure-landscape_reserve"
-  element {
-    scale: 17
-    caption {
-      primary {
-        height: 10
-        color: 5592405
-        offset_y: 1
-      }
-      priority: 3250
-    }
-  }
-  element {
-    scale: 18
-    caption {
-      primary {
-        height: 10
-        color: 5592405
-        offset_y: 1
-      }
-      priority: 3250
-    }
-  }
-  element {
-    scale: 19
-    caption {
-      primary {
-        height: 10
-        color: 5592405
-        offset_y: 1
-      }
-      priority: 3250
-    }
-  }
-  element {
-    scale: 20
-    caption {
-      primary {
-        height: 10
-        color: 5592405
-        offset_y: 1
-      }
-      priority: 3250
-    }
-  }
-}
-cont {
   name: "leisure-marina"
   element {
     scale: 16
@@ -67403,7 +67356,7 @@ cont {
     caption {
       primary {
         height: 11
-        color: 6710886
+        color: 10066329
         stroke_color: 1712394496
       }
       priority: 5750
@@ -67414,7 +67367,7 @@ cont {
     caption {
       primary {
         height: 11
-        color: 6710886
+        color: 10066329
         stroke_color: 1712394496
       }
       priority: 5750
@@ -67425,7 +67378,7 @@ cont {
     caption {
       primary {
         height: 11
-        color: 6710886
+        color: 10066329
         stroke_color: 1712394496
       }
       priority: 5750
@@ -67436,7 +67389,7 @@ cont {
     caption {
       primary {
         height: 11
-        color: 6710886
+        color: 10066329
         stroke_color: 1712394496
       }
       priority: 5750
@@ -67447,7 +67400,7 @@ cont {
     caption {
       primary {
         height: 11
-        color: 6710886
+        color: 10066329
         stroke_color: 1712394496
       }
       priority: 5750
@@ -67458,7 +67411,7 @@ cont {
     caption {
       primary {
         height: 11
-        color: 6710886
+        color: 10066329
         stroke_color: 1712394496
       }
       priority: 5750
@@ -67469,7 +67422,7 @@ cont {
     caption {
       primary {
         height: 11
-        color: 6710886
+        color: 10066329
         stroke_color: 1712394496
       }
       priority: 5750
@@ -67480,7 +67433,7 @@ cont {
     caption {
       primary {
         height: 11
-        color: 6710886
+        color: 10066329
         stroke_color: 1712394496
       }
       priority: 5750
@@ -68785,7 +68738,6 @@ cont {
       }
       priority: 7100
     }
-    apply_if: "population>=0"
   }
   element {
     scale: 11
@@ -68803,13 +68755,12 @@ cont {
       }
       priority: 7100
     }
-    apply_if: "population>=0"
   }
   element {
     scale: 12
     caption {
       primary {
-        height: 10
+        height: 12
         color: 7829367
         stroke_color: 856756480
       }
@@ -68821,151 +68772,142 @@ cont {
       }
       priority: 7100
     }
-    apply_if: "population<20000"
   }
   element {
     scale: 13
     caption {
       primary {
-        height: 10
+        height: 14
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
       }
       secondary {
-        height: 10
+        height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
         offset_y: 1
       }
       priority: 7100
     }
-    apply_if: "population<20000"
   }
   element {
     scale: 14
     caption {
       primary {
-        height: 10
+        height: 14
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
       }
       secondary {
-        height: 10
+        height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
         offset_y: 1
       }
       priority: 7100
     }
-    apply_if: "population<20000"
   }
   element {
     scale: 15
     caption {
       primary {
-        height: 10
+        height: 14
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
       }
       secondary {
-        height: 10
+        height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
         offset_y: 1
       }
       priority: 7100
     }
-    apply_if: "population<20000"
   }
   element {
     scale: 16
     caption {
       primary {
-        height: 10
+        height: 14
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
       }
       secondary {
-        height: 10
+        height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
         offset_y: 1
       }
       priority: 7100
     }
-    apply_if: "population<20000"
   }
   element {
     scale: 17
     caption {
       primary {
-        height: 10
+        height: 14
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
       }
       secondary {
-        height: 10
+        height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
         offset_y: 1
       }
       priority: 7100
     }
-    apply_if: "population<20000"
   }
   element {
     scale: 18
     caption {
       primary {
-        height: 10
+        height: 14
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
       }
       secondary {
-        height: 10
+        height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
         offset_y: 1
       }
       priority: 7100
     }
-    apply_if: "population<20000"
   }
   element {
     scale: 19
     caption {
       primary {
-        height: 10
+        height: 14
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
       }
       secondary {
-        height: 10
+        height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
         offset_y: 1
       }
       priority: 7100
     }
-    apply_if: "population<20000"
   }
   element {
     scale: 20
     caption {
       primary {
-        height: 10
+        height: 14
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
       }
       secondary {
-        height: 10
+        height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1118464
         offset_y: 1
       }
       priority: 7100
     }
-    apply_if: "population<20000"
   }
 }
 cont {
@@ -69010,12 +68952,12 @@ cont {
       primary {
         height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
       }
       secondary {
         height: 10
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
         offset_y: 1
       }
       priority: 6900
@@ -69027,12 +68969,12 @@ cont {
       primary {
         height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
       }
       secondary {
         height: 10
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
         offset_y: 1
       }
       priority: 6900
@@ -69044,12 +68986,12 @@ cont {
       primary {
         height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
       }
       secondary {
         height: 10
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
         offset_y: 1
       }
       priority: 6900
@@ -69061,12 +69003,12 @@ cont {
       primary {
         height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
       }
       secondary {
         height: 10
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
         offset_y: 1
       }
       priority: 6900
@@ -69078,12 +69020,12 @@ cont {
       primary {
         height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
       }
       secondary {
         height: 10
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
         offset_y: 1
       }
       priority: 6900
@@ -69095,12 +69037,12 @@ cont {
       primary {
         height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
       }
       secondary {
         height: 10
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
         offset_y: 1
       }
       priority: 6900
@@ -69112,12 +69054,12 @@ cont {
       primary {
         height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
       }
       secondary {
         height: 10
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
         offset_y: 1
       }
       priority: 6900
@@ -69129,12 +69071,12 @@ cont {
       primary {
         height: 12
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
       }
       secondary {
         height: 10
         color: 7829367
-        stroke_color: 856756480
+        stroke_color: 1292964096
         offset_y: 1
       }
       priority: 6900
@@ -88848,14 +88790,16 @@ cont {
     }
     caption {
       primary {
-        height: 10
-        color: 5592405
+        height: 13
+        color: 8947848
+        stroke_color: 856756480
         offset_y: 1
         is_optional: true
       }
       secondary {
         height: 11
         color: 8947848
+        stroke_color: 856756480
         offset_y: 1
         is_optional: true
       }
@@ -94005,14 +93949,16 @@ cont {
     }
     caption {
       primary {
-        height: 10
-        color: 5592405
+        height: 12
+        color: 8947848
+        stroke_color: 1118464
         offset_y: 1
         is_optional: true
       }
       secondary {
-        height: 9
-        color: 5592405
+        height: 10
+        color: 8947848
+        stroke_color: 1118464
         offset_y: 1
         is_optional: true
       }
@@ -104198,7 +104144,7 @@ cont {
       primary {
         height: 13
         color: 8947848
-        stroke_color: 856756480
+        stroke_color: 437326080
         offset_y: 1
         is_optional: true
       }
@@ -104222,7 +104168,7 @@ cont {
       primary {
         height: 13
         color: 8947848
-        stroke_color: 856756480
+        stroke_color: 437326080
         offset_y: 1
         is_optional: true
       }
@@ -104246,7 +104192,7 @@ cont {
       primary {
         height: 13
         color: 8947848
-        stroke_color: 856756480
+        stroke_color: 437326080
         offset_y: 1
         is_optional: true
       }
@@ -104270,7 +104216,7 @@ cont {
       primary {
         height: 13
         color: 8947848
-        stroke_color: 856756480
+        stroke_color: 437326080
         offset_y: 1
         is_optional: true
       }
